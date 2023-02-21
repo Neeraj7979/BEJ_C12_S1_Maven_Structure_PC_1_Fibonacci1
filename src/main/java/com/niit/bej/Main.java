@@ -2,6 +2,8 @@ package com.niit.bej;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       FibonacciSeries fibonacciSeries =new FibonacciSeries();
+       fibonacciSeries.printFibonacciSeries(5);
+
     }
 }
