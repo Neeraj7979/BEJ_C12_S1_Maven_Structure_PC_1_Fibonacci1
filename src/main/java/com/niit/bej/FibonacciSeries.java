@@ -1,7 +1,7 @@
 package com.niit.bej;
 
 public class FibonacciSeries {
-    public void printFibonacciSeries(int numberOfTerms) {
+    public int printFibonacciSeries(int numberOfTerms) {
         int firstTerm = 0;
         int secondTerm = 1;
         int nextTerm = 0;
@@ -12,5 +12,6 @@ public class FibonacciSeries {
             firstTerm = secondTerm;
             secondTerm = nextTerm;
         }
+        return nextTerm;
     }
 }
