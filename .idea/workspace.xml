@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ef74f95-9e4e-4ee2-811e-11dcea7676d3" name="Changes" comment="Final commit">
+    <list default="true" id="0ef74f95-9e4e-4ee2-811e-11dcea7676d3" name="Changes" comment="Created method to print fibonacci series">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/niit/bej/FibonacciSeriesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/bej/FibonacciSeries.java" afterDir="false" />
     </list>
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,13 +39,23 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.niit.bej" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FibonacciSeriesTest.printFibonacciSeriesUpTo5Terms">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.niit.bej.Main" />
-      <module name="BEJ_C1_S1_Maven_Structure_PC_1_FibonacciSeries" />
+      <module name="BEJ_C1_S1_Maven_Structure_PC_1_Fibonacci1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.niit.bej.*" />
@@ -54,8 +66,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciSeriesTest.printFibonacciSeriesUpTo5Terms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJ_C1_S1_Maven_Structure_PC_1_Fibonacci1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.bej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.bej" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.bej.FibonacciSeriesTest" />
+      <option name="METHOD_NAME" value="printFibonacciSeriesUpTo5Terms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BEJ_C1_S1_Maven_Structure_PC_1_Fibonacci1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BEJ_C1_S1_Maven_Structure_PC_1_Fibonacci1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FibonacciSeriesTest.printFibonacciSeriesUpTo5Terms" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676976458676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created method to print fibonacci series">
+      <created>1677005484502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677005484502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +166,7 @@
     <MESSAGE value="Create method to print ibonacci series" />
     <MESSAGE value="Create method to print fibonacci series" />
     <MESSAGE value="Final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
+    <MESSAGE value="Created method to print fibonacci series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created method to print fibonacci series" />
   </component>
 </project>
